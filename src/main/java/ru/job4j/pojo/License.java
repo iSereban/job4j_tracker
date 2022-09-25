@@ -44,7 +44,7 @@ public class License {
 
     public void setCode(String code) {
         this.code = code;
-        code.equals(code);
+        boolean equals = code.equals(code);
     }
 
     public Date getCreated() {
