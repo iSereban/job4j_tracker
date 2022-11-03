@@ -65,6 +65,7 @@ public class TrackerTest {
         tracker.replace(id, bugWithDesc);
         assertThat(tracker.findById(id).getName()).isEqualTo("Bug with description");
     }
+
     @Test
     public void whenDelete() {
         Tracker tracker = new Tracker();
